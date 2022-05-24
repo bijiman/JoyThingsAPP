@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layoutprofile"
+    tools:context=".ui.home.HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/ios_13_stock_ipados_red_black_background_amoled_hd_1280x720_799"
+        app:layout_constraintTop_toTopOf="@id/layoutprofile"
+        android:id="@+id/layoutred">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toTopOf="@id/layoutred"
+            app:layout_constraintLeft_toLeftOf="@id/layoutred"
+            app:layout_constraintRight_toRightOf="@id/layoutred"
+            app:layout_constraintHorizontal_bias="0.9"
+            android:text="@string/profile"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/myprofile"
+            />
+
+        <TextView
+            app:layout_constraintTop_toBottomOf="@id/myprofile"
+            app:layout_constraintLeft_toLeftOf="@id/layoutred"
+            app:layout_constraintRight_toRightOf="@id/layoutred"
+            app:layout_constraintHorizontal_bias="0.9"
+            android:text="@string/name"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            />
+
+        <TextView
+            app:layout_constraintTop_toBottomOf="@id/name"
+            app:layout_constraintLeft_toLeftOf="@id/layoutred"
+            app:layout_constraintRight_toRightOf="@id/layoutred"
+            app:layout_constraintHorizontal_bias="0.9"
+            android:text="@string/age"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/age"
+            />
+
+        <TextView
+            app:layout_constraintTop_toBottomOf="@id/age"
+            app:layout_constraintLeft_toLeftOf="@id/layoutred"
+            app:layout_constraintRight_toRightOf="@id/layoutred"
+            app:layout_constraintHorizontal_bias="0.87"
+            android:text="@string/average"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintTop_toTopOf="@id/layoutred"
+        app:layout_constraintLeft_toLeftOf="@id/layoutred"
+        app:layout_constraintRight_toRightOf="@id/layoutred"
+        android:layout_marginTop="75dp"
+        app:layout_constraintHorizontal_bias="0.15"
+        android:src="@drawable/whatsapp_image_2022_04_12_at_3_39_11_pm"
+        app:border_color="@color/white"
+        app:border_width="3dp"
+        android:id="@+id/profileme"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/profileme"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="225dp"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/scrollview1">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutbtnmenu">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="@string/hobby"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/hobbies"/>
+
+            <ImageView
+                android:layout_width="1185px"
+                android:layout_height="225px"
+                android:id="@+id/gaming"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/hobbies"
+                android:background="@drawable/group_6"/>
+
+            <ImageView
+                android:layout_width="1185px"
+                android:layout_height="225px"
+                android:id="@+id/search"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/gaming"
+                android:background="@drawable/group_4"/>
+
+            <ImageView
+                android:layout_width="1185px"
+                android:layout_height="225px"
+                android:id="@+id/photo"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/search"
+                android:background="@drawable/group_5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/photo"
+                android:text="@string/fav"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:id="@+id/digest"/>
+
+            <ImageView
+                android:layout_width="1185px"
+                android:layout_height="225px"
+                android:id="@+id/nasgor"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/digest"
+                android:background="@drawable/group_7"/>
+
+            <ImageView
+                android:layout_width="1185px"
+                android:layout_height="225px"
+                android:id="@+id/tarik"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/nasgor"
+                android:background="@drawable/group_3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tarik"
+                android:text="@string/interest"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:id="@+id/interest"/>
+
+            <ImageView
+                android:layout_width="1185px"
+                android:layout_height="225px"
+                android:id="@+id/tech"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/interest"
+                android:background="@drawable/group_9"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tech"
+                android:text="@string/goals"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:id="@+id/goals"/>
+
+            <ImageView
+                android:layout_width="1185px"
+                android:layout_height="225px"
+                android:id="@+id/work"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/goals"
+                android:background="@drawable/group_8"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,64 @@
+<resources>
+    <string name="lorem">Lorem Ipsum</string>
+
+    <string name="app_name">JoyThing\'s</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="vers">Version 0.1.0</string>
+    <string name="cr">Copyright © 2022 Joyson S</string>
+    <string name="refresh">Refresh</string>
+
+    <string name="profile">My Profile</string>
+    <string name="name">Joyson S</string>
+    <string name="age">21</string>
+    <string name="average">Average Small Guy</string>
+    <string name="hobby">HOBBIES</string>
+    <string name="gaming">Gaming</string>
+    <string name="photo">Photography</string>
+    <string name="search">Searching Something New</string>
+    <string name="fav">Favorite Digestable Content</string>
+    <string name="nasgor">Nasi Goreng</string>
+    <string name="teh">Teh Tarik</string>
+    <string name="interest">INTEREST</string>
+    <string name="tech">Technology</string>
+    <string name="games">Games</string>
+    <string name="goals">GOALS</string>
+    <string name="happy">Happiness</string>
+    <string name="work">Hardware Engineer</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="swipe">Swipe Right to Continue, Swipe Left to go Back</string>
+    <string name="start">START</string>
+    <string name="tip">TIP</string>
+    <string name="wait">Loading...</string>
+
+    <string name="contacts">Contacts</string>
+    <string name="phonenum">089537xxxxxxx</string>
+    <string name="email">joyss234@gmail.com</string>
+    <string name="ig">@joyss.ss</string>
+
+    <string name="details">Profile Details</string>
+    <string name="agedesc">Age</string>
+    <string name="nama">Name</string>
+    <string name="find">Find Me!</string>
+
+    <string name="activity">Activity</string>
+    <string name="friends">Friends</string>
+
+    <string name="songs">Songs</string>
+    <string name="videos">Videos</string>
+
+    <string name="info">Information</string>
+
+    <string name="title_gallery">Gallery</string>
+    <string name="title_daily">Daily</string>
+    <string name="title_music">Music</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="howto">How To \'App\'</string>
+    <string name="press">Press the button down below to change the page.</string>
+    <string name="press1">Press the tab to change the page.</string>
+    <string name="press2">Press the \"Refresh\" button to refresh the page.</string>
+    <string name="press3">Press the \"Information\" button to go to the information page.</string>
+</resources>
